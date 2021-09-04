@@ -55,7 +55,7 @@
                                         <input type="password" class="form-control form-control-user" id="exampleInputPassRep"
                                         placeholder="Repita su nueva contraseña" name="txtNewPassRep">
                                         </div>
-                                        <input class="btn btn-primary btn-user btn-block" type="submit" value="Cambiar Contraseña" href="../login.php" name="btn_CambiarCon">
+                                        <input class="btn btn-primary btn-user btn-block" type="submit" value="Cambiar Contraseña" href="../index.php" name="btn_CambiarCon">
                                     </form>
                                     <hr>
                                     </div>

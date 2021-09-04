@@ -26,8 +26,8 @@ if (($filas) && (password_verify($pass, $buscar_pass['password']))) {
     $_SESSION['username'] = $usuario;
     header("location:../front/principal.php");
 } else {
-    header("location:../login.php");
-    include "../login.php";
+    header("location:../index.php");
+    include "../index.php";
 }
 mysqli_free_result($resultado);
 mysqli_close($conexion);

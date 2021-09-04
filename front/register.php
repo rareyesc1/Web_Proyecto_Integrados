@@ -71,12 +71,12 @@
                                             <div class="invalid-feedback">Complete los datos</div>
                                     </div>
                                 </div>
-                                <input class="btn btn-primary btn-user btn-block" type="submit" value="Crear Cuenta" href="../login.php">
+                                <input class="btn btn-primary btn-user btn-block" type="submit" value="Crear Cuenta" href="../index.php">
                                 <hr>
-                                <a href="../login.php" class="btn btn-google btn-user btn-block">
+                                <a href="../index.php" class="btn btn-google btn-user btn-block">
                                     <i class="fab fa-google fa-fw"></i> Registrar con Google
                                 </a>
-                                <a href="../login.php" class="btn btn-facebook btn-user btn-block">
+                                <a href="../index.php" class="btn btn-facebook btn-user btn-block">
                                     <i class="fab fa-facebook-f fa-fw"></i> Registrar con Facebook
                                 </a>
                             </form>							
@@ -85,7 +85,7 @@
                                 <a class="small" href="forgot-password.php">¿Has Olvidado tu Contraseña?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="../login.php">¿Ya tienes una cuenta? ¡Acceder!</a>
+                                <a class="small" href="../index.php">¿Ya tienes una cuenta? ¡Acceder!</a>
                             </div>
                         </div>
                     </div>

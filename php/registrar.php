@@ -35,7 +35,7 @@ if ($userdb==$usuario) {
     if ($filas==0) {
         $queryRegistrar = "INSERT INTO login(nombres,apellidos,usuario,password) values ('$nombres','$apellidos','$usuario','$pass_cifrado')";
         if (mysqli_query($conexion, $queryRegistrar)) {
-            echo "<script> alert('Usuario Registrado: $usuario');window.location='../login.php' </script>";
+            echo "<script> alert('Usuario Registrado: $usuario');window.location='../index.php' </script>";
         } else {
             echo "Error: ".$queryRegistrar."<br>".mysqli_error($conexion);
         }
