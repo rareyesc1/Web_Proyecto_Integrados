@@ -24,10 +24,10 @@ $buscar_pass = mysqli_fetch_array($resultado);
 
 if (($filas) && (password_verify($pass, $buscar_pass['password']))) {
     $_SESSION['username'] = $usuario;
-    header("location:../front/index.php");
+    header("location:../front/principal.php");
 } else {
-    header("location:../front/login.php");
-    include "../front/login.php";
+    header("location:../login.php");
+    include "../login.php";
 }
 mysqli_free_result($resultado);
 mysqli_close($conexion);

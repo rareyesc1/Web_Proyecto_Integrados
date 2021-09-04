@@ -33,7 +33,7 @@ if ($conexion-> query($consulta) === true) {
     $tucorreo = "From: proyectointegrador01n67@gmail.com";
 
     if (mail($paracorreo, $titulo, $mensaje, $tucorreo)) {
-        echo "<script> alert('Se ha modificado la Contraseña correctamente');window.location='../front/login.php' </script>";
+        echo "<script> alert('Se ha modificado la Contraseña correctamente');window.location='../front/../login.php' </script>";
     } else {
         echo "<script> alert('Error');window.location='../front/forgot-password.php' </script>";
     }

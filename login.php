@@ -12,20 +12,20 @@
     <title>Página de Logueo</title>
 
     <!-- Custom fonts for this template-->
-    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
 <body class="bg-gradient-primary">
 
     <div class="container">
-      <form method="POST" action="../php/validar.php" class="needs-validation" novalidate>
+      <form method="POST" action="php/validar.php" class="needs-validation" novalidate>
         <!-- Outer Row -->
         <div class="row justify-content-center">
 
@@ -63,19 +63,19 @@
                                         </div>
                                         <input class="btn btn-primary btn-user btn-block" type="submit" value="Iniciar Sesión">
                                         <hr>
-                                        <a href="login.php" class="btn btn-google btn-user btn-block">
+                                        <a href="../login.php" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> Iniciar Sesión con Google
                                         </a>
-                                        <a href="login.php" class="btn btn-facebook btn-user btn-block">
+                                        <a href="../login.php" class="btn btn-facebook btn-user btn-block">
                                             <i class="fab fa-facebook-f fa-fw"></i> Iniciar Sesión con Facebook
                                         </a>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.php">¿Has Olvidado tu Contraseña?</a>
+                                        <a class="small" href="front/forgot-password.php">¿Has Olvidado tu Contraseña?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.php">Crea una cuenta nueva</a>
+                                        <a class="small" href="front/register.php">Crea una cuenta nueva</a>
                                     </div>
                                 </div>
                             </div>
@@ -113,14 +113,14 @@
     </script>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="../js/sb-admin-2.min.js"></script>
+    <script src="js/sb-admin-2.min.js"></script>
   </form>
 </body>
 

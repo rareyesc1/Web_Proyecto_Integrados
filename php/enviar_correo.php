@@ -34,9 +34,9 @@ if ($filas == 1) {
         $cabeceras .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
 
     if (mail($paracorreo, $titulo, $mensaje, $tucorreo)) {
-        echo "<script> alert('Contraseña Enviada');window.location='../front/login.php' </script>";
+        echo "<script> alert('Contraseña Enviada');window.location='../login.php' </script>";
     } else {
-        echo "<script> alert('Error');window.location='../front/forgot-password.php' </script>";
+        echo "<script> alert('Error');window.location='forgot-password.php' </script>";
     }
 } else {
     echo "Algo anda mal";

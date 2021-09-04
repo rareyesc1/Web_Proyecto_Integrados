@@ -17,7 +17,7 @@ session_start();
 $usuario = $_SESSION['username'];
 
 if (!isset($usuario)) {
-    header("location: login.php");
+    header("location: ../login.php");
 } else {
 
 }
@@ -77,7 +77,7 @@ if ($_GET['pagina']>$paginas || $_GET['pagina']<=0) {
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="principal.php">
                 <div 
                      <i> <img src="../img/icono_sanmateo.png"> </i>
                 </div>
@@ -89,7 +89,7 @@ if ($_GET['pagina']>$paginas || $_GET['pagina']<=0) {
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="principal.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Tablero</span></a>
             </li>
@@ -162,7 +162,7 @@ if ($_GET['pagina']>$paginas || $_GET['pagina']<=0) {
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.php">Login</a>
+                        <a class="collapse-item" href="../login.php">Login</a>
                         <a class="collapse-item" href="register.php">Register</a>
                         <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
                         <div class="collapse-divider"></div>
@@ -507,7 +507,7 @@ if ($_GET['pagina']>$paginas || $_GET['pagina']<=0) {
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.php">Logout</a>
+                    <a class="btn btn-primary" href="../login.php">Logout</a>
                 </div>
             </div>
         </div>

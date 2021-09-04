@@ -17,7 +17,7 @@ session_start();
 $usuario = $_SESSION['username'];
 
 if (!isset($usuario)) {
-    header("location: login.php");
+    header("location: ../login.php");
 } else {
 
 }
@@ -57,7 +57,7 @@ if (!isset($usuario)) {
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="principal.php">
                 <div 
                      <i> <img src="../img/icono_sanmateo.png"> </i>
                 </div>
@@ -69,7 +69,7 @@ if (!isset($usuario)) {
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="principal.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Tablero</span></a>
             </li>
@@ -141,7 +141,7 @@ if (!isset($usuario)) {
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.php">Login</a>
+                        <a class="collapse-item" href="../login.php">Login</a>
                         <a class="collapse-item" href="register.php">Register</a>
                         <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
                         <div class="collapse-divider"></div>
@@ -767,7 +767,7 @@ if (!isset($usuario)) {
                 </div>
                 <div class="modal-body">Seleccione "Cerrar sesión" a continuación si está listo para finalizar su sesión actual.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Tablero<</button>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                     <a class="btn btn-primary" href="../php/cerrar_sesion.php">Cerrar Sesión</a>
                 </div>
             </div>

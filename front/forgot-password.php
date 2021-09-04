@@ -51,14 +51,14 @@
                                                 <div class="valid-feedback">Datos correctos</div>
                                             <div class="invalid-feedback">Introduzca correo electrónico válido</div>
                                         </div>
-                                        <input class="btn btn-primary btn-user btn-block" type="submit" value="Recuperar Contraseña" href="login.php" name="btn_RecuperarCon">
+                                        <input class="btn btn-primary btn-user btn-block" type="submit" value="Recuperar Contraseña" href="../login.php" name="btn_RecuperarCon">
                                     </form>
                                     <hr>
                                     <div class="text-center">
                                         <a class="small" href="register.php">¡Crea una Cuenta!</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="login.php">¿Ya tienes una cuenta? ¡Acceder!</a>
+                                        <a class="small" href="../login.php">¿Ya tienes una cuenta? ¡Acceder!</a>
                                     </div>
                                 </div>
                             </div>
